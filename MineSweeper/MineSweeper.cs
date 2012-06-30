@@ -8,9 +8,9 @@ namespace MineSweeperTests
 
         public MineSweeper(int dimensionX, int dimensionY, int mines)
         {
-            throw new NotImplementedException();
+            Gameboard = new Gameboard(dimensionX, dimensionY, mines);
+
         }
 
-        public int Mines { get; private set; }
     }
 }

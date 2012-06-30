@@ -22,7 +22,7 @@ namespace MineSweeperTests
             //assert
             Assert.That(mineSweeper.Gameboard.DimensionX, Is.EqualTo(x));
             Assert.That(mineSweeper.Gameboard.DimensionY, Is.EqualTo(y));
-            Assert.That(mineSweeper.Mines, Is.EqualTo(mines));
+            Assert.That(mineSweeper.Gameboard.Mines, Is.EqualTo(mines));
         }
     }
 }
